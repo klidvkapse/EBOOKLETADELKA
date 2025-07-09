@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>10 papírových letadélek – PDF e-book</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #4aa3df;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 0 1em;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .hero-img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1em;
+      margin: 2em 0;
+      text-align: center;
+    }
+    .feature {
+      background: #e6f2fa;
+      padding: 1em;
+      border-radius: 8px;
+    }
+    .price {
+      text-align: center;
+      font-size: 1.5em;
+      margin: 1em 0;
+    }
+    .cta-button {
+      display: block;
+      width: fit-content;
+      margin: 1em auto 2em auto;
+      background: #4aa3df;
+      color: white;
+      padding: 0.8em 1.5em;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 1em 0;
+      color: #777;
+    }
+    @media(max-width: 600px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>10 papírových letadélek</h1>
+    <p>PDF návody krok za krokem</p>
+  </header>
+
+  <div class="container">
+    <img src="obrazek-letadelko.jpg" alt="Papírové letadélko" class="hero-img" />
+
+    <h2>Co v e-booku najdete?</h2>
+    <p style="text-align: center;">Snadné návody na 10 originálních modelů letadélek – od nejjednodušších po pokročilé. Barevné značení, co stříhat a co ohýbat. Stačí vytisknout a poskládat!</p>
+
+    <div class="features">
+      <div class="feature">
+        ✂️<br>Snadné skládání
+      </div>
+      <div class="feature">
+        📄<br>Ihned k tisku
+      </div>
+      <div class="feature">
+        ✈️<br>Opravdový let
+      </div>
+    </div>
+
+    <div class="price">
+      Cena e-booku: <strong>99 Kč</strong>
+    </div>
+
+    <a href="TVŮJ_ODKAZ_NA_PLATBU" class="cta-button">Stáhnout e-book nyní</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Tvůj Projekt | Kontakt: tvujemail@domena.cz
+  </footer>
+</body>
+</html>
